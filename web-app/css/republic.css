@@ -1,0 +1,88 @@
+@import url("960.css");
+@import url("main.css");
+
+div#footer {
+    background-color: #e5e5e6;
+}
+
+div#navbar ul {
+    list-style: none;
+    display: block;
+    margin: 0 10px;
+}
+
+div#navbar ul li {
+    float: left;
+    margin: 0 1.5em;
+    font: bold 1em Arial;
+}
+
+p.area {
+    border: 0px solid #ffffff;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-weight:bold;
+}
+
+p.header {
+    border: 0px solid #ffffff;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight:bold;
+}
+
+p.std {
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+
+
+p.check {
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+p.odd {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+p.even {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+font.highlighted {
+    color: red;
+}
+
+font.unhighlighted {
+    color: gray;
+}
+
+p.line {
+    border-width: 1px;
+    border-color: #aaaaaa;
+    border-right-style: solid;
+    overflow: hidden;
+    padding-right: 1px;
+    padding-top: -1px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.tooltiptext{
+    display: none;
+}
